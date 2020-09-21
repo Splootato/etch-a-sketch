@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Etch-a-sketch</title>
+
+    <meta name="author" content="Splootato" />
+    <meta name="description" content="Etch-a-sketch" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="titleContainer">
+      <h1 id="mainTitle">Etch-a-sketch!</h1>
+    </div>
+    <div id="gridContainer"></div>
+    <div id="resetResizeContainer">
+      <form id="resetResize">
+        <button id="reset" type="button">Reset</button>
+        <label for="nSize">Grid Size: </label>
+        <input type="text" id="nSize" name="nSize" /><br /><br />
+        <input type="button" value="Go" id="nSizeGo" />
+      </form>
+    </div>
+    <div id="colorButtons">
+      <button id="white" type="button" class="hoverEffect">White</button>
+      <button id="pink" type="button" class="hoverEffect">Pink</button>
+      <button id="yellow" type="button" class="hoverEffect">Yellow</button>
+      <button id="green" type="button" class="hoverEffect">Green</button> 
+      <button id="blue" type="button" class="hoverEffect">Blue</button>
+      <button id="red" type="button" class="hoverEffect">Red</button>
+      <button id="black" type="button" class="hoverEffect">black</button>
+      <button id= rainbow type="button" class="hoverEffect">rainbow</button>
+      
+    </div>
+    
+  
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
